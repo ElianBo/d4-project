@@ -11,3 +11,13 @@ h1 {
   font-family: Chicle;
   font-size: 200%;
 }
+
+a {
+  color: rgb(75, 0, 130);
+  font-size: 3em;
+
+}
+
+a:hover {
+  color: rgb(250, 101, 147);
+}
