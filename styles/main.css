@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle');
 @import url('https://fonts.googleapis.com/css?family=K2D');
 
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+
 body {
 background: #FFFEA1;
 font-size: 120%;
@@ -12,6 +19,7 @@ h1 {
   font-size: 5em;
   display: flex;
   justify-content: space-around;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -19,6 +27,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   font-family: Chicle;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -46,25 +55,27 @@ p {
   justify-content: space-around;
   background-color: #FDECA8;
   font-family: K2D;
+  padding: 20px;
 
 
 }
 
-video {
-  margin-left: 225px;
 
-  
-}
 
-.comp-section-content{
-  display: flex;
-  justify-content: space-around;
+
+
+
+
+.comp-section-content {
+    display: flex;
+    justify-content: space-around;
 }
 
 
 .comp-content {
 
   flex: 1 0 200px;
+
 
 }
 
@@ -82,3 +93,45 @@ video {
   float: right;
 
 }
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+
+
+
+
+
+}
+
+.gauche {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.droite {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.droite a {
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.gauche a {
+  font-size: 1.5em;
+  margin: auto;
+
+}
+
+video {
+ display: block;
+    margin-left: auto;
+    margin-right: auto }
